@@ -4,7 +4,7 @@ An application for the COSMIC™ desktop
 
 ## Configuraion
 
-change it to your battery specifications
+change it to your battery specifications in app.rs in src
 ```sh
 const BAT_PATH: &str = "/path/battery";
 ```
