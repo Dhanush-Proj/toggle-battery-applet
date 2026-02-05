@@ -2,6 +2,12 @@
 
 An application for the COSMIC™ desktop
 
+## Configuraion
+
+change it to your battery specifications
+```sh
+const BAT_PATH: &str = "/path/battery";
+```
 ## Installation
 
 A [justfile](./justfile) is included by default for the [casey/just][just] command runner.
