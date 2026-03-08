@@ -8,7 +8,15 @@ change it to your battery specifications in app.rs in src
 ```sh
 const BAT_PATH: &str = "/path/battery";
 ```
-## Installation
+change name to your home folder name 
+```
+const SHOW_PERCENT_PATH: &str = "/home/{name}/.config/cosmic/com.system76.CosmicAppletBattery/v1/show_percentage";
+```
+## Screenshot
+<img width="387" height="171" alt="Screenshot_2026-03-09_00-43-27" src="https://github.com/user-attachments/assets/a9d29708-0cc9-4271-9129-4a735ebc9f8d" />
+
+
+##  Installation
 
 A [justfile](./justfile) is included by default for the [casey/just][just] command runner.
 
